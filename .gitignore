@@ -259,3 +259,7 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+
+# [@fdrobidoux] Remove Ressources.resx because it has my login info lol
+Phr00tMarket/Properties/Resources.resx
+Phr00tMarket/Properties/Resources.Designer.cs
