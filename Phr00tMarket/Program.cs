@@ -16,7 +16,7 @@ namespace Phr00tMarket
         {
             // Testing Octokit.
             client = new GitHubClient(new ProductHeaderValue("phr00t-market"));
-            var basicAuth = new Credentials("fdrobidoux", Properties.Resources.SECRET); // NOTE: not real credentials
+            var basicAuth = new Credentials("fdrobidoux", Properties.Resources.SECRET); // NOTE: Real credentials.
             client.Credentials = basicAuth;
 
             var procedures = await GetRateLimits()
@@ -39,6 +39,7 @@ namespace Phr00tMarket
 
             foreach (GitHubCommit ghc in repoXen2)
             {
+                ghc.
                 // TODO
 
             }
